@@ -1,0 +1,5 @@
+<library path="lib/libpotential_field_lib">
+ <class name="potential_field/potentialField" type="potential_field::potentialField" base_class_type="nav_core::BaseGlobalPlanner">
+   <description>This is potential field global planner plugin by gonzales project.</description>
+ </class>
+</library>
