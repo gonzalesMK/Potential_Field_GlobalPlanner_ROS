@@ -467,7 +467,7 @@ int potentialField::findBestCell(int cellID){
     convertToCoordinate( cellID, x, y);
     getCoordinate(x,y);
     index = convertToCellIndex(x , y ) ;
-    cout << " DADO: (" << x << "," << y << ")" << "COST: " << _obsPotMap[index] + _posPotMap[index] << endl ;
+    cout << " DADO: (" << x << "," << y << ") INDEX: " << index << endl; //<< " COST: " << _obsPotMap[index] + _posPotMap[index] << endl ;
 
      for( float i = - WALK * _resolution ; i <=  WALK * _resolution ; i+= _resolution){
          for( float j = - WALK * _resolution ; j <= WALK * _resolution ; j+= _resolution){
